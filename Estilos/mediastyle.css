@@ -7,23 +7,44 @@
     
     section#login{
         width: 80vw ;
+        height: 300px;
     }
 
     div#imagem{
         float: left;
-        width: 30%;
+        width: 40%;
         height: 100%;
         border-radius: 20px 0px 0px 20px;
     }
 
     div#formulario{
         float: right;
-        width: 70%;
+        width: 60%;
         height: 100%;
         text-align: justify;
         font-size: 1em;
     }
        
+    div.campo>span{
+    
+        color: white;
+        font-size: 1.5em;
+        width: 40px;
+        padding: 5px;
+    }
+
+    div.campo>input{
+        background-color: #74f3ef;    
+        font-size: 1 em;
+        width: calc(100% - 46px);
+        height: 100%;
+       
+        border: 0px;
+        border-radius: 5px;
+        padding: 5px;
+        transform: translateY(-10px);
+    
+    }
 }
 
 @media screen and (min-width: 992px)  {
@@ -32,6 +53,7 @@
     }
     section#login{
         width: 80vw ;
+        height: 350px;
         
     }
 
@@ -50,5 +72,24 @@
         font-size: 1.2em;
     }
 
-   
+    div.campo>span{
+    
+        color: white;
+        font-size: 1.5em;
+        width: 40px;
+        padding: 4px;
+    }
+
+    div.campo>input{
+        background-color: #74f3ef;    
+        font-size: 1 em;
+        width: calc(100% - 46px);
+        height: 100%;
+       
+        border: 0px;
+        border-radius: 5px;
+        padding: 5px;
+        transform: translateY(-13px);
+    
+    }
 }
